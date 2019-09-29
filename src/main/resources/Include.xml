@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Include Suite">
+
+	<test name="Include Test">
+
+		<classes>
+
+			<class name="PackageName.TestCaseName">
+				<methods>
+					<include name="TestMethodName"/>
+				</methods>
+			</class>
+			<class name="PackageName.TestCaseName"/>
+			<class name="PackageName.TestCaseName"/>
+
+		</classes>
+
+	</test>
+
+</suite>
+			

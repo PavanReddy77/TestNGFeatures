@@ -6,12 +6,14 @@
 	<listeners>
 		<listener class-name="TestNG.TestNGListener"></listener>
 	</listeners>
-	
- 	<test name="Parameters Test">
-     	<classes>
-      		<class name="TestNG.ListenersProgram"/>
-      	</classes>
-  	</test> <!-- Test -->
-  
-</suite> <!-- Suite -->
+
+	<test name="Parameters Test">
+
+		<classes>
+			<class name="TestNG.ListenersProgram"/>
+		</classes>
+
+	</test>
+
+</suite>
 			
