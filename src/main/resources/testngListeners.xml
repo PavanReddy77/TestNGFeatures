@@ -4,13 +4,13 @@
 <suite name="Suite">
 
 	<listeners>
-		<listener class-name="TestNG.TestNGListener"></listener>
+		<listener class-name="com.Features.TestNG.TestNGListener"></listener>
 	</listeners>
 
 	<test name="Parameters Test">
 
 		<classes>
-			<class name="TestNG.ListenersProgram"/>
+			<class name="com.Features.TestNG.ListenersProgram"/>
 		</classes>
 
 	</test>

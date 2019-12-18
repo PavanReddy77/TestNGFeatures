@@ -15,22 +15,22 @@ public class TestNGListener implements ITestListener
 {
 	public void onTestStart(ITestResult result) 
 	{
-		System.out.println("TestCase Started and Details are : " +result.getName());
+		System.out.println("Test Case Started and Details are : " +result.getName());
 	}
 
 	public void onTestSuccess(ITestResult result)
 	{
-		System.out.println("TestCase Success and Details are : " +result.getName());
+		System.out.println("Test Case Success and Details are : " +result.getName());
 	}
 
 	public void onTestFailure(ITestResult result) 
 	{
-		System.out.println("TestCase Failed and Details are : " +result.getName());
+		System.out.println("Test Case Failed and Details are : " +result.getName());
 	}
 
 	public void onTestSkipped(ITestResult result)
 	{
-		System.out.println("TestCase Skipped and Details are : " +result.getName());
+		System.out.println("Test Case Skipped and Details are : " +result.getName());
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) 
@@ -40,12 +40,12 @@ public class TestNGListener implements ITestListener
 
 	public void onStart(ITestContext context)
 	{
-
+		System.out.println("Execution Started in SIT Environment");
 	}
 
 	public void onFinish(ITestContext context)
 	{
-
+		System.out.println("Execution Completed in SIT Environment");
 	}
 }
 				
