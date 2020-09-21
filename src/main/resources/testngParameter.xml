@@ -5,8 +5,8 @@
 	<test name="Parameters Test">
 
 		<parameter name="url" value="https://www.facebook.com/"/>
-		<parameter name="emailID" value="bsmreddy99@gmail.com"/>
-		<parameter name="Password" value="reddy88033"/>
+		<parameter name="emailID" value="Parameters@gmail.com"/>
+		<parameter name="Password" value="Parameters77"/>
 
 		<classes>
 			<class name="com.Features.TestNG.ParametersProgram"/>
@@ -14,5 +14,5 @@
 
 	</test>
 
-</suite> 
+</suite>
 			
