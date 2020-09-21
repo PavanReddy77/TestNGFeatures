@@ -4,7 +4,7 @@
 
 	<test name="Parameters Test">
 
-		<parameter name="url" value="https://www.facebook.com/"/>
+		<parameter name="url" value="https://www.gmail.com/"/>
 		<parameter name="emailID" value="Parameters@gmail.com"/>
 		<parameter name="Password" value="Parameters77"/>
 
